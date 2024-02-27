@@ -1,0 +1,138 @@
+.logo {
+  width: 9rem;
+}
+
+.netflix {
+  width: 100%;
+}
+
+
+.netflix-nav {
+  width: 80%;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.coverpage {
+  height: 80%;
+}
+
+.screen {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, .8) 100%);
+}
+
+.netflix-coverpage {
+  transform: scale(1.25) translateY(-10%);
+}
+
+.bg-black {
+  --tw-bg-opacity: 0.5 !important;
+}
+
+.btn-border {
+  border-width: 0.1rem !important;
+}
+
+.content {
+  grid-gap: 1.25rem;
+  width: 100% !important;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .heading {
+    font-size: 3rem;
+  }
+
+  .inputs {
+    gap: 0.5rem;
+
+    input {
+      font-weight: 500;
+      width: 60%;
+    }
+    .btn{
+      font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0.25rem 1.25rem;
+    }
+  }
+}
+
+
+/* Medium screen devices */
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    width: 5rem;
+  }
+
+  .netflix-nav {
+    width: 90%;
+  }
+
+  .logIn {
+    column-gap: .5rem !important;
+  }
+}
+
+/* Small screen devices */
+
+@media screen and (max-width: 600px) {
+  .section-1 {
+    font-size: .8rem;
+  }
+
+  .coverpage {
+    height: 30rem;
+  }
+
+  .logo {
+    width: 5.5rem;
+  }
+
+  .netflix-nav {
+    width: 90%;
+  }
+
+  .logIn {
+    column-gap: .25rem !important;
+  }
+
+  .content {
+    grid-gap: .85rem;
+    text-align: center;
+    padding: 0 1.5rem;
+    top: 55% !important;
+    transform: translate(-50%, -45%);
+
+    .heading {
+      font-size: 1.75rem;
+      font-weight: 750;
+    }
+
+    .sub-heading {
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+
+    .heading-msg {
+      font-size: 1.125rem;
+      font-weight: 400;
+    }
+
+    .inputs {
+      gap: 0.5rem;
+      width: 85%;
+
+      input {
+        font-weight: 500;
+        width: 100%;
+      }
+
+      .btn {
+        margin-top: 0.5rem;
+        font-size: 1.125rem;
+        padding: 0.75rem 1.125rem;
+      }
+    }
+  }
+}

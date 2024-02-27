@@ -1,0 +1,5 @@
+export {default as Coverpage} from './Coverpage'
+export {default as Slides} from './Slides'
+export {default as FAQ} from './FAQ'
+export {default as Footer} from './Footer'
+export {default as Seperator} from './Seperator'
